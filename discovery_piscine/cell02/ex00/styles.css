@@ -1,0 +1,24 @@
+   /* ลบระยะขอบเริ่มต้น และให้หน้าเว็บสูงเต็มจอ */
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* ตารางเต็มทั้งหน้าเว็บ */
+        table {
+            width: 100%;
+            height: 100vh;
+            border-collapse: collapse;
+            table-layout: fixed;   /* ทำให้คอลัมน์แบ่งเท่ากันและหดตัวตามหน้าจอ */
+        }
+
+        td {
+            border: 1px solid #333;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 5vw;        /* ตัวอักษรย่อ/ขยายตามความกว้างหน้าจอ */
+            overflow: hidden;
+            word-break: break-all;
+        }
