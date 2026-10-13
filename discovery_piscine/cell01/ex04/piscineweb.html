@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        h1,
+        footer {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .shops {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .shop {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .shop img {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Piscine Web</h1>
+
+    <div class="shops">
+        <div class="shop">
+            <a href="https://store.steampowered.com">
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1980780/capsule_616x353.jpg?t=1659150474"
+                    alt="Steam online store" width="300">
+            </a>
+            <a href="https://store.steampowered.com">Link to website</a>
+        </div>
+
+        <div class="shop">
+            <a href="https://www.amazon.com">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+                    alt="Amazon online store" width="300">
+            </a>
+            <a href="https://www.amazon.com">Link to website</a>
+        </div>
+    </div>
+
+    <hr>
+    <footer>© nmarungr 2026</footer>
+</body>
+</html>
