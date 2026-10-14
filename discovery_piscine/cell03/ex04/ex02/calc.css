@@ -1,0 +1,160 @@
+/* ===== Calculator – dark theme ===== */
+
+:root {
+  --bg: #0f1115;
+  --card: #181b22;
+  --card-border: #262a33;
+  --field: #0f1115;
+  --field-border: #2c313c;
+  --text: #e6e8ec;
+  --muted: #8a92a3;
+  --accent: #4f8cff;
+  --accent-hover: #6a9dff;
+  --error: #ff6b6b;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: radial-gradient(circle at top, #1a1e27 0%, var(--bg) 60%);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Card */
+.calcForm {
+  width: 100%;
+  max-width: 460px;
+  padding: 28px;
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 18px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+.calcForm h1 {
+  margin: 0 0 20px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Input row */
+.calcForm form {
+  display: grid;
+  grid-template-columns: 1fr 72px 1fr;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.calcForm input,
+.calcForm select {
+  width: 100%;
+  height: 52px;
+  padding: 0 14px;
+  background: var(--field);
+  color: var(--text);
+  border: 1px solid var(--field-border);
+  border-radius: var(--radius);
+  font-size: 1.1rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.calcForm input::placeholder {
+  color: var(--muted);
+}
+
+.calcForm input:focus,
+.calcForm select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(79, 140, 255, 0.25);
+}
+
+/* Operator dropdown */
+.calcForm select {
+  text-align: center;
+  text-align-last: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--accent);
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0;
+}
+
+.calcForm select option {
+  background: var(--card);
+  color: var(--text);
+}
+
+/* Button */
+.calcForm button {
+  width: 100%;
+  height: 52px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.05s;
+}
+
+.calcForm button:hover {
+  background: var(--accent-hover);
+}
+
+.calcForm button:active {
+  transform: scale(0.98);
+}
+
+/* Result */
+#result {
+  margin: 20px 0 0;
+  min-height: 56px;
+  padding: 14px 16px;
+  background: var(--field);
+  border: 1px solid var(--field-border);
+  border-radius: var(--radius);
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  word-break: break-all;
+}
+
+#result:empty::before {
+  content: "0";
+  color: var(--muted);
+}
+
+#result.error {
+  color: var(--error);
+  font-size: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 420px) {
+  .calcForm {
+    padding: 20px;
+  }
+
+  .calcForm form {
+    grid-template-columns: 1fr 60px 1fr;
+    gap: 8px;
+  }
+}
