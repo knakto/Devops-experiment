@@ -1,7 +1,4 @@
 function calcForm() {
-    
-
-    isN
     let inputNum1 =document.getElementById("num1").value;
     let inputNum2 =document.getElementById("num2").value;
 
@@ -37,7 +34,7 @@ function calcForm() {
     } else if (opperator === '-') {
         result = inputNum1 - inputNum2;
     } else if (opperator === '*') {
-        result = inputNum1 * inputNum2;2312
+        result = inputNum1 * inputNum2;
     } else if (opperator === '/') {
         if (inputNum2 === 0) {
             result = 'Cannot divide by zero';
