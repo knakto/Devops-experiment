@@ -22,7 +22,7 @@ balloon.addEventListener("mouseleave", function() {
 		size -= 5;
 		colorIndex = (colorIndex - 1 + colors.length) % colors.length;
 	}
-
+	
 	updateBalloon();
 });
 
@@ -31,3 +31,4 @@ function updateBalloon() {
 	balloon.style.height = size + "px";
 	balloon.style.backgroundColor = colors[colorIndex];
 }
+
