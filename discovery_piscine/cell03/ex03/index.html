@@ -2,166 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Daily Task Board</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans+Thai:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<style>
-/* Layout: single centered column — header with progress meter, input bar, filter tabs, task list */
-:root {
-  --bg: #0f1216; --surface: #171b21; --line: #262c35; --fg: #e6e9ee; --muted: #8a93a1;
-  --accent: #7cc4ff; --high: #ff7a6b; --med: #f2c14e; --low: #6fd3a6;
-  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
-  --body: "IBM Plex Sans Thai", "Segoe UI", system-ui, sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
-  color-scheme: dark;
-}
-@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) {
-  --bg: #f4f6f9; --surface: #ffffff; --line: #dde2e9; --fg: #161a20; --muted: #5d6673;
-  --accent: #1f6fb8; --high: #c8402f; --med: #a87a00; --low: #1f8a5c; color-scheme: light } }
-:root[data-theme="light"] {
-  --bg: #f4f6f9; --surface: #ffffff; --line: #dde2e9; --fg: #161a20; --muted: #5d6673;
-  --accent: #1f6fb8; --high: #c8402f; --med: #a87a00; --low: #1f8a5c; color-scheme: light }
-
-* { box-sizing: border-box; }
-body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--body);
-  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
-.wrap { max-width: 640px; margin: 0 auto; display: grid; gap: 20px; }
-
-header { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; }
-h1 { font: 800 clamp(28px, 6vw, 40px)/1 var(--display); margin: 0; letter-spacing: -0.02em; text-wrap: balance; }
-.date { font: 500 12px var(--mono); color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-top: 8px; }
-.meter { text-align: right; font: 500 13px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
-.meter b { color: var(--fg); font-size: 22px; font-family: var(--display); }
-.bar { height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
-.bar i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .3s; }
-
-form { display: flex; gap: 8px; flex-wrap: wrap; }
-input[type=text] { flex: 1 1 220px; min-width: 0; background: var(--surface); border: 1px solid var(--line); color: var(--fg);
-  font: inherit; padding: 12px 14px; border-radius: 8px; }
-select, button { font: inherit; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; cursor: pointer; }
-.add { background: var(--accent); color: var(--bg); border-color: var(--accent); font-weight: 500; padding-inline: 18px; }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-.tabs { display: flex; gap: 4px; flex-wrap: wrap; align-items: center; border-bottom: 1px solid var(--line); }
-.tabs button { background: none; border: none; border-bottom: 2px solid transparent; border-radius: 0; color: var(--muted); padding: 8px 10px; }
-.tabs button[aria-pressed=true] { color: var(--fg); border-bottom-color: var(--accent); }
-.tabs .clear { margin-left: auto; font-size: 13px; }
-
-ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
-li { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: 12px; padding: 12px 14px; background: var(--surface); }
-li .txt { min-width: 0; overflow-wrap: anywhere; }
-li.done .txt { color: var(--muted); text-decoration: line-through; }
-.chk { appearance: none; width: 20px; height: 20px; border: 2px solid var(--muted); border-radius: 5px; margin: 0; cursor: pointer; display: grid; place-content: center; }
-.chk:checked { background: var(--accent); border-color: var(--accent); }
-.chk:checked::after { content: ""; width: 5px; height: 10px; border: solid var(--bg); border-width: 0 2px 2px 0; transform: rotate(45deg) translate(-1px,-1px); }
-.pri { font: 500 11px var(--mono); letter-spacing: .06em; text-transform: uppercase; padding: 2px 8px; border-radius: 99px; border: 1px solid currentColor; }
-.pri.high { color: var(--high); } .pri.med { color: var(--med); } .pri.low { color: var(--low); }
-.del { background: none; border: none; color: var(--muted); padding: 4px 8px; font-size: 18px; line-height: 1; }
-.del:hover { color: var(--high); }
-.empty { text-align: center; color: var(--muted); padding: 32px 0; }
-.hint { font-size: 12px; color: var(--muted); }
-@media (prefers-reduced-motion: reduce) { .bar i { transition: none; } }
-body { margin: 0; }
-[hidden] { display: none !important; }
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>To Do</title>
+  <link href="todo.css" rel="stylesheet"/>
 </head>
 <body>
+<div class="box">
+  <h1>To Do</h1>
 
-<div class="wrap">
-  <header>
-    <div>
-      <h1>To-do</h1>
-      <div class="date" id="today"></div>
-    </div>
-    <div class="meter"><b id="doneN">0</b> / <span id="totalN">0</span> done</div>
-  </header>
-  <div class="bar"><i id="fill"></i></div>
+  <button id="new" type="button">New task</button>
 
-  <form id="f">
-    <input type="text" id="task" placeholder="Add a task…" autocomplete="off" required>
-    <select id="prio" aria-label="Priority">
-      <option value="high">High</option>
-      <option value="med" selected>Medium</option>
-      <option value="low">Low</option>
-    </select>
-    <button class="add" type="submit">Add</button>
-  </form>
-
-  <div class="tabs" role="group" aria-label="Filter">
-    <button type="button" data-f="all" aria-pressed="true">All</button>
-    <button type="button" data-f="active" aria-pressed="false">Active</button>
-    <button type="button" data-f="done" aria-pressed="false">Done</button>
-    <button type="button" class="clear" id="clear">Clear done</button>
-  </div>
-
-  <ul id="list"></ul>
-  <div class="hint">Saved in this browser. Double-click a task to edit it.</div>
+  <div id="list"></div>
+  <p>Click a task to delete it (you'll be asked to confirm).</p>
 </div>
 
-<script>
-const KEY = "todo-v1";
-const sample = [
-  { id: 1, text: "Example: review ERP data dictionary", prio: "high", done: false },
-  { id: 2, text: "Example: restart Jenkins container", prio: "med", done: true },
-  { id: 3, text: "Example: reply to clinic about API export", prio: "low", done: false },
-];
-let tasks, filter = "all";
-try { tasks = JSON.parse(localStorage.getItem(KEY)) || sample; } catch { tasks = sample; }
-const save = () => { try { localStorage.setItem(KEY, JSON.stringify(tasks)); } catch {} };
-const order = { high: 0, med: 1, low: 2 };
-const $ = id => document.getElementById(id);
-
-$("today").textContent = new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
-
-function render() {
-  const list = $("list");
-  list.innerHTML = "";
-  const shown = tasks.filter(t => filter === "all" || (filter === "done") === t.done)
-    .sort((a, b) => a.done - b.done || order[a.prio] - order[b.prio]);
-  if (!shown.length) {
-    const li = document.createElement("li"); li.className = "empty"; li.style.display = "block";
-    li.textContent = filter === "done" ? "Nothing finished yet." : "No tasks. Add one above.";
-    list.append(li);
-  }
-  for (const t of shown) {
-    const li = document.createElement("li");
-    if (t.done) li.className = "done";
-    const cb = Object.assign(document.createElement("input"), { type: "checkbox", className: "chk", checked: t.done, id: "c" + t.id });
-    cb.setAttribute("aria-label", "Mark done");
-    cb.onchange = () => { t.done = cb.checked; save(); render(); };
-    const span = Object.assign(document.createElement("span"), { className: "txt", textContent: t.text });
-    span.ondblclick = () => {
-      const inp = Object.assign(document.createElement("input"), { type: "text", value: t.text, id: "e" + t.id });
-      const commit = () => { const v = inp.value.trim(); if (v) t.text = v; save(); render(); };
-      inp.onblur = commit; inp.onkeydown = e => { if (e.key === "Enter") commit(); if (e.key === "Escape") render(); };
-      span.replaceWith(inp); inp.focus();
-    };
-    const pri = Object.assign(document.createElement("span"), { className: "pri " + t.prio, textContent: t.prio === "med" ? "Med" : t.prio });
-    const del = Object.assign(document.createElement("button"), { className: "del", textContent: "×", type: "button" });
-    del.setAttribute("aria-label", "Delete task");
-    del.onclick = () => { tasks = tasks.filter(x => x !== t); save(); render(); };
-    li.append(cb, span, pri, del);
-    list.append(li);
-  }
-  const d = tasks.filter(t => t.done).length;
-  $("doneN").textContent = d; $("totalN").textContent = tasks.length;
-  $("fill").style.width = tasks.length ? (d / tasks.length * 100) + "%" : "0";
-}
-
-$("f").addEventListener("submit", e => {
-  e.preventDefault();
-  const v = $("task").value.trim(); if (!v) return;
-  tasks.push({ id: Date.now(), text: v, prio: $("prio").value, done: false });
-  $("task").value = ""; save(); render();
-});
-document.querySelectorAll(".tabs [data-f]").forEach(b => b.onclick = () => {
-  filter = b.dataset.f;
-  document.querySelectorAll(".tabs [data-f]").forEach(x => x.setAttribute("aria-pressed", x === b));
-  render();
-});
-$("clear").onclick = () => { tasks = tasks.filter(t => !t.done); save(); render(); };
-render();
-</script>
+<script src="todo.js"></script>
 </body>
 </html>
