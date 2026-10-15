@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Meow Haven</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Mitr:wght@400;500;600&display=swap">
+  <link href="./styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="cn-wrap">
+  <nav class="cn" id="cardNav" aria-label="หลัก">
+    <div class="cn__top">
+      <button class="cn__burger" id="cnBurger" type="button" aria-label="เปิดเมนู" aria-expanded="false" aria-controls="cnCards"><span></span><span></span></button>
+      <a class="cn__logo" href="#intro" data-go="intro"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11 L5.5 3 L10 7.5 h4 L18.5 3 L20 11 a8 8 0 1 1 -16 0Z" /></svg>Meow Haven</a>
+      <div class="cn__right">
+        <button type="button" class="theme-toggle" id="themeToggleBtn" aria-label="สลับธีม"><span id="themeIcon">🌙</span></button>
+        <a class="mh-btn mh-btn--primary cn__cta" href="#test" data-go="test">เริ่มเล่น</a>
+      </div>
+    </div>
+    <div class="cn__cards" id="cnCards">
+      <div class="cn__card" style="--c:var(--brand-soft)">
+        <h3>สำรวจ</h3>
+        <a href="#about" data-go="intro">↗ สายมูแมว</a>
+        <a href="#how" data-go="intro">↗ เล่นยังไง</a>
+        <a href="about.html">↗ เกี่ยวกับโปรเจกต์</a>
+      </div>
+      <div class="cn__card" style="--c:var(--surface-raised)">
+        <h3>กลุ่มแมว</h3>
+        <a href="#groups" data-go="intro">↗ 4 กลุ่มแมว</a>
+        <a href="#breeds" data-go="intro">↗ 40 สายพันธุ์</a>
+      </div>
+      <div class="cn__card" style="--c:var(--surface)">
+        <h3>เล่นเลย</h3>
+        <a href="#test" data-go="test">↗ A/B Test</a>
+        <a href="#about" data-go="intro">↗ ตำนาน Bastet</a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<main>
+  <!-- INTRO -->
+  <section id="intro" class="screen">
+    <div class="wrap hero">
+      <div>
+        <span class="mh-chip">สำหรับคนรักแมว</span>
+        <h1>หาแมว<em>ที่ใช่</em><br>สำหรับคุณ</h1>
+        <p class="lede">เลือกแมวที่ชอบทีละคู่ ครบ 20 คู่แล้วมาดูกันว่าคุณเหมาะกับแมวกลุ่มไหนที่สุด</p>
+        <div class="hero__cta">
+          <button class="mh-btn mh-btn--primary mh-btn--lg" id="startBtn" type="button">เริ่มเลย →</button>
+          <a class="mh-btn mh-btn--lg" href="#how">เล่นยังไง</a>
+        </div>
+        <div class="facts"><span><b>40</b>สายพันธุ์</span><span><b>4</b>กลุ่ม</span><span><b>20</b>คู่</span></div>
+      </div>
+      <div class="mh-panel" id="lastPanel"></div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="sec" id="about">
+      <div class="wrap">
+        <span class="mh-chip">🐱 สายมูแมว</span>
+        <h2>จากเทพีอียิปต์ ถึงแมวมงคลสยาม</h2>
+        <p>ทำไมมนุษย์ถึงยกแมวให้เป็น “ผู้คุ้มครองบ้าน” มาตั้งแต่โบราณ</p>
+
+        <h3 class="sub">ต้นตำรับ: บาสเต็ต เทพีแมวแห่งอียิปต์</h3>
+        <p class="story">บาสเต็ตเป็นเทพีของอียิปต์โบราณ ซึ่งอาจมีต้นกำเนิดจากนูเบีย และมีผู้บูชามาตั้งแต่ราชวงศ์ที่ 2
+          (ราว 2890 ปีก่อนคริสตกาล) หรือเกือบ 5,000 ปีที่แล้ว</p>
+        <ul class="facts-grid">
+          <li><b>จากสิงโตสู่แมว</b><span>เดิมเธอเป็นเทพีสิงโตสายนักรบแห่งดวงอาทิตย์
+              ก่อนจะกลายเป็นเทพีแมวอย่างที่รู้จักกันในปัจจุบัน</span></li>
+          <li><b>พลังคุ้มครอง</b><span>นับถือกันว่าเป็นเทพีผู้ปกป้องจากโรคติดต่อและวิญญาณชั่วร้าย
+              และเป็นเทพีแห่งการตั้งครรภ์และการคลอดบุตร อาจเพราะแมวบ้านขยายพันธุ์เก่ง</span></li>
+          <li><b>แมว = ของสูง</b><span>แมวหลวงบางตัวได้สวมเครื่องประดับทองคำ และได้กินอาหารจานเดียวกับคนในบ้าน</span></li>
+          <li><b>สายมูตัวจริง</b><span>เมื่อขุดค้นวิหารของบาสเต็ต พบมัมมี่แมวมากกว่า 300,000 ตัว และถ้าแมวตาย
+              ทั้งครอบครัวจะไว้ทุกข์อย่างหนัก</span></li>
+          <li><b>เทศกาลใหญ่</b><span>เทศกาลของเทพีองค์นี้มีผู้มาร่วมราว 700,000 คนในแต่ละปี มีทั้งร้อง เต้น
+              ดื่มไวน์กันเต็มที่</span></li>
+        </ul>
+
+        <h3 class="sub">มาถึงสยาม: แมวไทยก็มีของ</h3>
+        <p class="story">แม้ไม่มีหลักฐานว่าลัทธิบาสเต็ตส่งต่อมาถึงไทยโดยตรง แต่ความเชื่อว่า “แมวคือผู้พิทักษ์ ผู้นำโชค”
+          มีอยู่ในบ้านเราเช่นกัน</p>
+        <ul class="facts-grid">
+          <li><b>ตำราแมวไทย</b><span>ในสมุดข่อยโบราณ แยกแมวมงคล เช่น วิเชียรมาศ ศุภลักษณ์ โกนจา
+              ว่าตัวไหนเลี้ยงแล้วรวย</span></li>
+          <li><b>แห่นางแมว</b><span>อุ้มแมวแห่ไปขอฝนให้พืชผล</span></li>
+          <li><b>อุ้มแมวขึ้นบ้านใหม่</b><span>ความเชื่อว่าแมวช่วยเสริมความร่มเย็นให้บ้าน</span></li>
+        </ul>
+
+        <div class="mh-panel summary">
+          <p><b>สรุป:</b> ห่างกันหลายพันปี ห่างกันหลายพันกิโลเมตร แต่มนุษย์ยกแมวเป็น “ผู้คุ้มครองบ้าน” เหมือนกัน 🐈‍⬛✨</p>
+          <small>ที่มา: Bastet – Wikipedia</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW -->
+    <section class="sec" id="how">
+      <div class="wrap">
+        <h2>เล่นยังไง</h2>
+        <p>ใช้เวลาประมาณ 1 นาที เล่นได้ทั้งมือถือและคอมพิวเตอร์</p>
+        <ol class="steps">
+          <li><b>เลือกตัวที่ชอบ</b><span>แมวขึ้นมาทีละคู่ คลิกการ์ด หรือกด A / B หรือ ← → บนคีย์บอร์ด</span></li>
+          <li><b>ครบ 20 คู่</b><span>ทุกตัวโผล่มาแค่ครั้งเดียว และจะเจอกับแมวต่างกลุ่มเสมอ</span></li>
+          <li><b>ดูผลลัพธ์</b><span>รู้ทันทีว่าคุณชอบแมวกลุ่มไหนที่สุด พร้อมคะแนนและตัวที่คุณเลือก</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- GROUPS (rendered from groups.js) -->
+    <section class="sec" id="groups">
+      <div class="wrap">
+        <h2>แมว 4 กลุ่ม</h2>
+        <p>คุณจะเป็นสายไหน? ลองเล่นเพื่อหาคำตอบ</p>
+        <div class="group-grid" id="groupGrid"></div>
+      </div>
+    </section>
+
+    <div class="wrap breeds" id="breeds">
+      <h2>แมว 4 กลุ่ม 40 สายพันธุ์</h2>
+      <p>ทุกตัวจะโผล่มาในเกมครั้งเดียว และจะเจอกับแมวต่างกลุ่มเสมอ</p>
+      <div class="breed-grid" id="breedGrid"></div>
+    </div>
+
+    <!-- CTA -->
+    <section class="sec cta">
+      <div class="wrap">
+        <div class="mh-panel">
+          <h2>พร้อมหาแมวที่ใช่หรือยัง?</h2>
+          <p>เลือกไปตามใจชอบ ไม่มีถูกไม่มีผิด แล้วให้เทพี Bastet เป็นคนชี้ทาง</p>
+          <a class="mh-btn mh-btn--primary mh-btn--lg" href="#test" data-go="test">เริ่มเลย →</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- TEST -->
+  <section id="test" class="screen" hidden>
+    <div class="wrap test">
+      <div class="mh-progress">
+        <div class="mh-progress__meta"><span id="pairLabel">คู่ที่ 1 / 20</span><span>กด A / B หรือ ← →</span></div>
+        <div class="mh-progress__track" role="progressbar" aria-valuemin="0" aria-valuemax="20" aria-valuenow="0" id="progTrack">
+          <div class="mh-progress__fill" id="progFill"></div>
+        </div>
+      </div>
+      <h2>ชอบตัวไหนมากกว่า?</h2>
+      <div class="mh-vs">
+        <button class="mh-card" id="cardA" type="button"></button>
+        <span class="mh-vs__or">หรือ</span>
+        <button class="mh-card" id="cardB" type="button"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULT -->
+  <section id="result" class="screen" hidden>
+    <div class="wrap result">
+      <div>
+        <span class="mh-chip">ผลของคุณ</span>
+        <h1 id="winTitle"></h1>
+        <p class="desc" id="winDesc"></p>
+        <div class="actions">
+          <button class="mh-btn mh-btn--primary" id="againBtn" type="button">เล่นอีกครั้ง</button>
+          <button class="mh-btn" data-go="intro" type="button">กลับหน้าแรก</button>
+        </div>
+      </div>
+      <div class="mh-panel">
+        <h2>คะแนนแต่ละกลุ่ม</h2>
+        <p>จาก 20 ครั้งที่คุณเลือก</p>
+        <ol class="scores" id="scores"></ol>
+      </div>
+      <div class="picked">
+        <h2 id="pickedTitle">แมวที่คุณเลือกในกลุ่มนี้</h2>
+        <div class="mini-grid" id="picked"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- BASTET FOOTER -->
+<footer class="bastet-footer">
+  <div class="wrap">
+    <div class="bastet-grid">
+      <div class="bastet-box">
+        <div class="bastet-story">
+          <!-- รูปปั้นรูปเคารพเทพีบาสเตต (Goddess Bastet) พร้อมรูปสำรองถ้าโหลดไม่ขึ้น -->
+          <img src="images/Gemini_Generated_Image_8x1o2o8x1o2o8x1o.jpeg" 
+               onerror="this.src='https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=200&auto=format&fit=crop';" 
+               alt="Goddess Bastet" 
+               class="bastet-img">
+          <div>
+            <h3><span>𓃠</span> THE CULT OF BASTET (GIZA)</h3>
+            <p>สืบทอดจิตวิญญาณจากลัทธิบูชาเทพีบาสเตตแห่งอียิปต์โบราณตั้งแต่ 3100 ปีก่อนคริสตกาล หน้าที่แท้จริงของมนุษย์คือการเป็นทาสรับใช้ เปิดกระป๋อง และกราบไหว้เจ้านาย</p>
+          </div>
+        </div>
+        <ul class="bastet-links">
+          <li><a href="javascript:void(0)">𓏬 วิธีได้ยันต์ 5 แถว</a></li>
+          <li><a href="javascript:void(0)">𓏬 บัญชาปลาทู</a></li>
+          <li><a href="javascript:void(0)">𓏬 สมาคมทาส</a></li>
+          <li><a href="javascript:void(0)">𓏬 หมดตัวเพราะกลัวเจ้านาย</a></li>
+          <li><a href="javascript:void(0)" title="The sacred duty">𓏬 คัมภีร์ตักทราย (The Holy Litter Box)</a></li>
+          <li><a href="javascript:void(0)" title="If it fits, I sits">𓏬 ทฤษฎีกล่องลัง (If It Fits, I Sits)</a></li>
+          <li><a href="javascript:void(0)" title="Gravity test">𓏬 กฏแรงโน้มถ่วง (Pushing Things Off Tables)</a></li>
+          <li><a href="javascript:void(0)" title="3 AM Zoomies">𓏬 วิ่งมาราธอนตี 3 (3 AM Zoomies Support)</a></li>
+          <li><a href="javascript:void(0)" title="I am your master">𓏬 ใบรับรองการเป็นทาส (Certified Cat Servant)</a></li>
+        </ul>
+      </div>
+      
+      <div class="bastet-box">
+        <div>
+          <h3><span>🔺</span> SACRED TEMPLE LOCATION</h3>
+          <p style="margin-bottom:8px;">ศูนย์บัญชาการหลักใต้เงื้อมเงาของมหาพีระมิดแห่งกิซ่า ต้นกำเนิดจักรวาลแมว</p>
+          <div class="bastet-map">
+            <span>📍</span>
+            <strong style="color:var(--ink); font-size:12px;">The Great Pyramid of Giza, Egypt</strong>
+            <small style="color:var(--ink-muted);">GPS: 29.9792° N, 31.1342° E</small>
+          </div>
+        </div>
+        <a href="https://maps.google.com/?q=Giza+Pyramids" target="_blank" rel="noopener noreferrer" class="mh-btn" style="width:100%; justify-content:center; font-size:12px; height:34px;">เปิดแผนที่นำทางสู่พีระมิด 🗺️</a>
+      </div>
+    </div>
+
+    <div class="bastet-bottom">
+      <p>© 3100 BC - 2026 Meow Haven & The Order of Bastet. Managed by Cat Servants.</p>
+      <p style="font-style:italic;">"ขอให้กระบะทรายสะอาดสะอ้านและขนมเลียไม่ขาดแคลน 🐾"</p>
+    </div>
+  </div>
+</footer>
+
+<script src="groups.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
