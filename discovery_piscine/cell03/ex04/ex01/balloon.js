@@ -31,7 +31,7 @@ $(function () {
 			size -= 5;
 			colorIndex = (colorIndex - 1 + colors.length) % colors.length;
 		}
-
 		updateBalloon();
 	});
 });
+bis

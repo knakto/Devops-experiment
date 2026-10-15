@@ -31,17 +31,17 @@ function render() {
   });
 }
 
-// Save the task list as JSON in a cookie (kept 1 year)
+// Save the task list as JSON in a cookie (kept 1 year).
 function saveTasks() {
-  let value = encodeURIComponent(JSON.stringify(tasks));
-  document.cookie = "tasks=" + value + "; max-age=31536000; path=/";
+  let json = JSON.stringify(tasks);
+  document.cookie = "tasks=" + encodeURIComponent(json) + "; max-age=31536000; path=/";
 }
 
 // Read the JSON list back from the cookie
 function loadTasks() {
   let match = document.cookie.match(/(?:^|; )tasks=([^;]*)/);
-  if (!match) return [];
   try {
+    if (!match) return [];
     return JSON.parse(decodeURIComponent(match[1]));
   } catch (e) {
     return [];

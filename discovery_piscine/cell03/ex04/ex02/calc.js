@@ -29,6 +29,11 @@ function calcForm() {
     } else {
         result = 'Error :(';
     }
+
+    if (result > 9000) {
+        alert('It’s over 9000!');
+        return;
+    }
     alert(result);
 }
 
