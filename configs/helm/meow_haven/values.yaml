@@ -1,0 +1,26 @@
+replicaCount: 1
+
+image:
+  repository: meow_haven
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "v1"
+
+app:
+  name: meow-haven
+
+service:
+  name: meow-haven-service
+  type: ClusterIP
+  port: 80
+
+deploy:
+  name: meow-haven-deploy
+
+ingress:
+  name: meow-haven-ingress
+  hosts:
+    paths:
+      root:
+        path: /
+        type: Prefix
