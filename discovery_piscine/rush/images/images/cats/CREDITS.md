@@ -1,0 +1,44 @@
+# Photo credits (Wikimedia Commons)
+
+| File | Subject | Author | License | Source |
+|---|---|---|---|---|
+| thai-1.jpg | Wichienmaat | ? | ? | https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BE%D1%82_%D0%9B%D1%83%D0%BB%D0%B0%D0%BC%D0%B5%D0%B9_%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0%2C_%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD_%D0%BC%D0%B8%D1%80%D0%B0_%D0%BF%D0%BE_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5_WCF%2C_%D0%BE%D0%BA%D1%80%D0%B0%D1%81_%D0%B1%D0%BB%D1%8E_%D0%BF%D0%BE%D0%B8%D0%BD%D1%82_01_%28cropped%29.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| thai-2.jpg | Korat | ? | ? | https://commons.wikimedia.org/wiki/File:Face_et_profil_du_korat.JPG%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| thai-3.jpg | Khao Manee | ? | ? | https://commons.wikimedia.org/wiki/File:Khaomanee_cat.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| thai-4.jpg | Suphalak | ? | ? | https://commons.wikimedia.org/wiki/File:Suphalak_Female_in_Thailand_named_AumDaengManee.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| thai-5.jpg | Black cat | ? | ? | https://commons.wikimedia.org/wiki/File:Black_female_Maine_Coon_with_typical_ear_tufts%2C_ruff_and_large_paws_and_tail.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| thai-6.jpg | Orange tabby | ? | ? | https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| thai-7.jpg | Tabby cat | ? | ? | https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| thai-8.jpg | Calico cat | ? | ? | https://commons.wikimedia.org/wiki/File:CalicoCat.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| thai-9.jpg | Thai cat | ? | ? | https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%BE%D1%82_%D0%9B%D1%83%D0%BB%D0%B0%D0%BC%D0%B5%D0%B9_%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0%2C_%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD_%D0%BC%D0%B8%D1%80%D0%B0_%D0%BF%D0%BE_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5_WCF%2C_%D0%BE%D0%BA%D1%80%D0%B0%D1%81_%D0%B1%D0%BB%D1%8E_%D0%BF%D0%BE%D0%B8%D0%BD%D1%82_01_%28cropped%29.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| thai-10.jpg | Tuxedo cat | ? | ? | https://commons.wikimedia.org/wiki/File:Socks_the_Cat.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| fluffy-1.jpg | Persian cat | ? | ? | https://commons.wikimedia.org/wiki/File:Persialainen.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| fluffy-2.jpg | Ragdoll | ? | ? | https://commons.wikimedia.org/wiki/File:Ragdoll_from_Gatil_Ragbelas.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| fluffy-3.jpg | Maine Coon | ? | ? | https://commons.wikimedia.org/wiki/File:M%C3%A2le_Black_Silver_Blotched_Tabby.jpeg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| fluffy-4.jpg | Norwegian Forest cat | ? | ? | https://commons.wikimedia.org/wiki/File:Dalaja-Doll-norv%C3%A9gien-ambre-blotched-tabby_avec-blanc_2008_%28cropped%29.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| fluffy-5.jpg | Siberian cat | ? | ? | https://commons.wikimedia.org/wiki/File:Samiha%27s_Siberian_cat_Moon_Pie.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| fluffy-6.jpg | Birman | ? | ? | https://commons.wikimedia.org/wiki/File:Birmanstrofe.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| fluffy-7.jpg | Himalayan cat | ? | ? | https://commons.wikimedia.org/wiki/File:Sonny_Bunny.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| fluffy-8.jpg | Turkish Angora | ? | ? | https://commons.wikimedia.org/wiki/File:Turkish_Angora_in_Ankara_Zoo_%28AO%C3%87%29.JPG%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| fluffy-9.jpg | British Longhair | ? | ? | https://commons.wikimedia.org/wiki/File:Mystica_from_British_Empire_Cattery.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| fluffy-10.jpg | Balinese cat | ? | ? | https://commons.wikimedia.org/wiki/File:Old-Style_Balinese_Cat.png%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| active-1.jpg | American Shorthair | ? | ? | https://commons.wikimedia.org/wiki/File:Jewelkatz_Romeo_Of_Stalker-Bars.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| active-2.jpg | Bengal cat | ? | ? | https://commons.wikimedia.org/wiki/File:Paintedcats_Red_Star_standing.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| active-3.jpg | Abyssinian cat | ? | ? | https://commons.wikimedia.org/wiki/File:Gustav_chocolate.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| active-4.jpg | British Shorthair | ? | ? | https://commons.wikimedia.org/wiki/File:Mystica_from_British_Empire_Cattery.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| active-5.jpg | Russian Blue | ? | ? | https://commons.wikimedia.org/wiki/File:Russian_blue_kitten_%28cropped%29.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| active-6.jpg | Siamese cat | ? | ? | https://commons.wikimedia.org/wiki/File:Siamese_cat_Vaillante.JPG%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| active-7.jpg | Egyptian Mau | Achet Aton | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:RoyalNefertt_Serket_of_AchetAton.jpg |
+| active-8.jpg | Ocicat | ? | ? | https://commons.wikimedia.org/wiki/File:Topspot_La_Colombina_%28Liina%29_OCI_c_24_female_kitten_EX1.JPG%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| active-9.jpg | Burmese cat | ? | ? | https://commons.wikimedia.org/wiki/File:British_burmese_-_Andel_Alois_at_Cat_show.JPG%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| active-10.jpg | Savannah cat | ? | ? | https://commons.wikimedia.org/wiki/File:Savannah_Cat_portrait.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| unique-1.jpg | Sphynx cat | ? | ? | https://commons.wikimedia.org/wiki/File:Sphynx_-_cat._img_031.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| unique-2.jpg | Scottish Fold | ? | ? | https://commons.wikimedia.org/wiki/File:Scottish_Fold_-_CFF_cat_show_Heinola_2008-05-03_IMG_7882.JPG%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| unique-3.jpg | Munchkin cat | ? | ? | https://commons.wikimedia.org/wiki/File:Longhairedmunchkin.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| unique-4.jpg | Devon Rex | ? | ? | https://commons.wikimedia.org/wiki/File:Devon_Rex_Cassini.jpeg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| unique-5.jpg | Cornish Rex | ? | ? | https://commons.wikimedia.org/wiki/File:Rex_staredown.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| unique-6.jpg | Peterbald | ? | ? | https://commons.wikimedia.org/wiki/File:Tamila_the_lilac_tabby_Peterbald_cat.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| unique-7.jpg | American Curl | ? | ? | https://commons.wikimedia.org/wiki/File:American_curl_2.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| unique-8.jpg | Japanese Bobtail | ? | ? | https://commons.wikimedia.org/wiki/File:JapaneseBobtailBlueEyedMi-ke.JPG%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| unique-9.jpg | Lykoi | ? | ? | https://commons.wikimedia.org/wiki/File:8-month-old_male_Lykoi.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
+| unique-10.jpg | Exotic Shorthair | ? | ? | https://commons.wikimedia.org/wiki/File:Ginger_Exotic_Shorthair.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Dthumbnail_unscaled |
